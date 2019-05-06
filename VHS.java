@@ -1,4 +1,4 @@
-package sortomatic;
+package organizador;
 
 public class VHS extends Articulo {
     private String duracion, estado, contenido;

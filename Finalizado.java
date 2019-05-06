@@ -1,4 +1,4 @@
-package sortomatic;
+package organizador;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

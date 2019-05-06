@@ -1,4 +1,4 @@
-package sortomatic;
+package organizador;
 
 import java.awt.FlowLayout;
 import java.awt.event.MouseEvent;

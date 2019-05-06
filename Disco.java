@@ -1,4 +1,4 @@
-package sortomatic;
+package organizador;
 
 public class Disco extends Articulo {
     private double capacidad;

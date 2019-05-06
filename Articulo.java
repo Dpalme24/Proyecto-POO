@@ -1,4 +1,4 @@
-package sortomatic;
+package organizador;
 
 
 public abstract class Articulo {

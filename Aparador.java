@@ -1,4 +1,4 @@
-package sortomatic;
+package organizador;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package sortomatic;
+package organizador;
 
 public class Otro extends Articulo {
     private String descripcion;

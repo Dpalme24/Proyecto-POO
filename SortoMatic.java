@@ -1,4 +1,4 @@
-package sortomatic;
+package organizador;
 
 import javax.swing.JFrame;
 
