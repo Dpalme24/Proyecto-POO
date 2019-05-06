@@ -23,28 +23,8 @@ public class Estante {
         this.listaArticulos = listaArticulos;
     }
 
-   
-    
     public Estante(double longitud){
         lenEstante= longitud;
         
-    }
-    
-    public static void ordenarArticulos(){
-        
-    }
-    
-    public void agregarArticulo(){
-        
-    }
-    
-    @Override
-    public String toString(){
-        String texto = "";
-        for (int i=0; i<listaArticulos.size();i++){
-            
-        }
-        
-        return texto;
     }
 }

@@ -104,7 +104,7 @@ private ArrayList<Articulo> finale;
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "Encontrara su documento guardado en la misma carpeta donde esta este proyecto con el nombre thanos");
+        JOptionPane.showMessageDialog(this, "Encontrara su documento guardado en la misma carpeta donde esta este proyecto con el nombre g fa");
     }//GEN-LAST:event_jButton1MouseClicked
 
     /**
@@ -113,7 +113,7 @@ private ArrayList<Articulo> finale;
 
     public static void abrirArchivo(){
         try {
-            archivo=new Formatter("thanos.txt");
+            archivo=new Formatter("g fa.txt");
         } catch (FileNotFoundException ex) {
             System.err.println("No existe el archivo");
             System.exit(1);
