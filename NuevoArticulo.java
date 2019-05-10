@@ -144,6 +144,7 @@ public class NuevoArticulo extends JFrame{
         add(field2);
         add(label3);
         add(field3);
+        add(boton);
         
         temp= Contenedor;
         opcion = "otro";

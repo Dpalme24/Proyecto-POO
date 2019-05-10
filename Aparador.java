@@ -59,20 +59,40 @@ public class Aparador {
     }
     
     public void bubbleSort( String opc ) {
-        int n = listaArticulos.size();
-        Articulo temp;
-        if (n > 1) {
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < (n - j); j++) {
-                    if(listaArticulos.get(j).getTitulo().compareTo(listaArticulos.get(j+1).getTitulo()) > 0) {
-                        temp = listaArticulos.get(j);
-                        listaArticulos.set(j,listaArticulos.get(j+1));
-                        listaArticulos.set( (j+1), temp);
+        if (opc.equals("A-Z") || opc.equals("Z-A")){
+            int n = listaArticulos.size();
+            Articulo temp;
+            if (n > 1) {
+                for (int i = 0; i < n; i++) {
+                    for (int j = 0; j < (n - j); j++) {
+                        if(listaArticulos.get(j).getTitulo().compareTo(listaArticulos.get(j+1).getTitulo()) > 0) {
+                            temp = listaArticulos.get(j);
+                            listaArticulos.set(j,listaArticulos.get(j+1));
+                            listaArticulos.set( (j+1), temp);
+                        }
+                    }
+                }
+
+                if (opc.equals("Z-A")){
+                    Collections.reverse(listaArticulos);
+                }
+            }
+        }
+        if (opc.equals("Ano asc") || opc.equals("Ano des")){
+            int n = listaArticulos.size();
+            Articulo temp;
+            if (n > 1) {
+                for (int i = 0; i < n; i++) {
+                    for (int j = 0; j < (n - j); j++) {
+                        if(listaArticulos.get(j).getAno() > listaArticulos.get(j+1).getAno()) {
+                            temp = listaArticulos.get(j);
+                            listaArticulos.set(j,listaArticulos.get(j+1));
+                            listaArticulos.set( (j+1), temp);
+                        }
                     }
                 }
             }
-
-            if (opc.equals("Z-A")){
+            if (opc.equals("Ano des")){
                 Collections.reverse(listaArticulos);
             }
         }

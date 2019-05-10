@@ -7,7 +7,7 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 
 public class OrdenarEstantes extends JFrame {
-    private final static String[] opciones={"A-Z", "Z-A"};
+    private final static String[] opciones={"A-Z", "Z-A", "Ano asc", "Ano des"};
     private JComboBox ordenamiento;
     private JButton boton;
    
